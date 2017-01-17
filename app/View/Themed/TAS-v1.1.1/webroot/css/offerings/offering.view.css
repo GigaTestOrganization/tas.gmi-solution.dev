@@ -1,0 +1,18 @@
+
+.timetable
+{
+		margin: 0px !important;
+		padding: 0px !important;
+}
+
+.theader-default th
+{
+		background: #fff !important;
+		border: none !important;
+}
+
+.participant_tbl_actions a
+{
+    font-weight: normal !important;
+    display: inline-block;
+}

@@ -1,0 +1,65 @@
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+}
+
+/** General Style Info **/
+body {
+	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
+	font-size: 120%;
+	margin: 0;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+table {
+	border-right:0;
+	clear: both;
+	color: #333;
+	margin-bottom: 10px;
+	width: 100%;
+}
+th {
+	border:0;
+	border-bottom:2px solid #555;
+	text-align: left;
+	padding:4px;
+}
+
+table tr td {
+	padding: 6px;
+	text-align: left;
+	vertical-align: top;
+	border-bottom:1px solid #ddd;
+}
+table tr:nth-child(even) {
+	background: #f9f9f9;
+}
+td.actions {
+	text-align: center;
+	white-space: nowrap;
+}
+
+h1 {
+	color: #003d4c;
+	font-size: 1.1em;
+}
+
+h3 {
+	color: #2c6877;
+	font-family:'Gill Sans','lucida grande', helvetica, arial, sans-serif;
+	font-size: 1.5em;
+}
+
+.float_left
+{
+	float: left;
+}
+
+.float_right
+{
+	float: right;
+}

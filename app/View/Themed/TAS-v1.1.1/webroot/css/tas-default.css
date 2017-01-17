@@ -1,0 +1,285 @@
+body
+{
+		-webkit-font-smoothing: antialiased;
+		min-height: 100% !important;
+		background: #f2f2f2;
+}
+/* Box */
+.box
+{
+		border: 1px #ebeaea solid;
+		-webkit-border-radius: 7px;
+		-moz-border-radius: 7px;
+		border-radius: 7px;
+		padding: 15px 15px 15px 15px;
+		background: #fff;
+}
+
+.box-info
+{
+		background: #d9edf7 !important;
+		border: 1px #bce8f1 solid !important;
+}
+/* --------------------------- */
+
+/* pagination */
+.pagination-margin-0
+{
+	margin: 0px !important;
+}
+
+.pagination-xs > li > a,
+.pagination-xs > li > span
+{
+  padding: 4px 8px;
+  font-size: 12px;
+  line-height: 1.1;
+}
+.pagination-xs > li:first-child > a,
+.pagination-xs > li:first-child > span {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-top-left-radius: 3px;
+	-moz-border-bottom-left-radius: 3px;
+}
+.pagination-xs > li:last-child > a,
+.pagination-xs > li:last-child > span {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+/*-----------*/
+
+/*Page Header*/
+.page-header
+{
+  padding-bottom: 7.5px;
+  margin: 34px 0 17px;
+  border-bottom: 1px solid #e6e9ec;
+}
+/*---------------*/
+
+/* table */
+.table
+{
+    border-collapse: collapse !important;
+    border: 1px #a6d3df solid !important;
+}
+
+.table > tbody
+{
+	  font-size: 11px;
+}
+
+.thead-default th
+{
+    background: #d9f3fa;
+    border: 1px #a6d3df solid !important;
+}
+/*-------*/
+
+/* nav bar plain text */
+.navbar-nav > li > a.a-plain-text
+{
+		cursor: default !important;
+}
+
+.navbar-nav > li > a.a-plain-text:hover,
+.navbar-nav > li > a.a-plain-text:focus
+{
+		color: #9d9d9d !important;
+}
+/* -------------------------------- */
+
+/* table, column sort icons */
+.thead-default th > a:after
+{
+		float: right;
+    content: " \f0dc";
+    font-family: FontAwesome;
+}
+.thead-default th > a.asc:after
+{
+    content: " \f0dd";
+    font-family: FontAwesome;
+}
+.thead-default th > a.desc:after
+{
+    content: " \f0de";
+    font-family: FontAwesome;
+}
+/* ------------------------ */
+
+/* Action Bar */
+.actionbar
+{
+		width: 100%;
+		padding: 5px 5px 4px 5px;
+		margin-bottom: 5px;
+		background-color: #DCEDF8;
+		border:1px solid #cde6f6;
+}
+/* ------------------------ */
+
+.well-success
+{
+		background-color: #50b654;
+}
+
+.well-primary
+{
+		background-color: #64a9e3;
+}
+
+.well-info
+{
+		background-color: #9dc6e8;
+}
+
+.well-success .dl-horizontal,
+.well-primary .dl-horizontal,
+.well-info .dl-horizontal
+{
+		font-size: 12px !important;
+		color: #35373c;
+		margin: 0px;
+}
+
+.well-success .dl-horizontal dt,
+.well-primary .dl-horizontal dt,
+.well-info .dl-horizontal dt,
+.dl-bottom-margins dt
+{
+		margin-bottom: 3px;
+}
+
+.well-success .dl-horizontal dd,
+.well-primary .dl-horizontal dd,
+.well-info .dl-horizontal dd,
+.dl-bottom-margins dd,
+{
+		margin-bottom: 3px;
+}
+
+.well-success .page-header,
+.well-primary .page-header,
+.well-info .page-header,
+.box .page-header
+{
+		margin-top: 10px !important;
+}
+
+.well-success .page-header h3,
+.well-primary .page-header h3,
+.well-info .page-header h3,
+.box .page-header h3
+{
+		color: #333333 !important;
+		font-size: 18px !important;
+}
+
+
+/* --- Tab --- */
+.tabular
+{
+	 	background-color:  #66849e;
+		/*border: 1px solid #66849e;*/
+	 	border-top-left-radius: 6px;
+		border-top-right-radius: 6px;
+		-webkit-border-top-left-radius: 6px;
+		-webkit-border-top-right-radius: 6px;
+		-moz-border-top-left-radius: 6px;
+		-moz-border-top-right-radius: 6px;
+}
+.tabular .tab-content
+{
+	  background-color: #ffffff;
+		padding: 0px;
+		padding-top: 20px;
+	  /*padding : 5px 15px;		;*/
+}
+
+.tabular .nav-pills > li > a
+{
+		/*border-bottom-left-radius: 0;
+  	border-bottom-right-radius: 0;*/
+		border-radius: 0;
+}
+
+.tabular .nav-pills > li
+{
+		margin-left: 0px !important;
+}
+
+.rounded-top-left
+{
+		border-top-left-radius: 5px !important;
+}
+
+.nav li a.tabs-btn
+{
+		color: #ffffff !important;
+		font-size: 12px;
+		font-weight: bold;
+		borde-radius: 4px
+}
+
+.nav li a.tabs-btn:hover
+{
+	 color: #66849e !important;
+}
+
+.nav li.active a.tabs-btn
+{
+	 background-color: #ffffff !important;
+	 color: #66849e !important;
+}
+
+/*Events / Offering*/
+#peoplelist label,
+#instructorslist label
+{
+		font-weight: normal !important;
+}
+
+#findInstructor
+{
+		cursor: pointer !important;
+}
+/*-------------------*/
+
+.control-label-left
+{
+    text-align: left !important;
+		font-size: 12px !important;
+}
+
+.control-label-bottom-space
+{
+		margin-bottom: 5px !important;
+}
+
+/* ---Lessons ----- */
+#ltm
+{
+		margin-bottom: 4px !important;
+}
+/* ---------------- */
+
+
+/* ---- Footer ---- */
+.footer
+{
+	position: fixed;
+	bottom: 0;
+	height: 18px;
+	width: 100%;
+	background-color: #dddddd;
+	z-index: 999999 !important;
+}
+.footer p
+{
+	padding: 1px 15px 0px 15px;
+}
+/* ---------------- */

@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Giva Labs - mcDropdown jQuery Plug-in | Giva</title>
+	
+	<link type="text/css" href="./css/jquery.mcdropdown.min.css" rel="stylesheet" media="all" />
+
+	<!---// load jQuery from the GoogleAPIs CDN //--->
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+	<script type="text/javascript" src="./lib/jquery.mcdropdown.min.js"></script>
+	<script type="text/javascript" src="./lib/jquery.bgiframe.js"></script>
+
+	<script type="text/javascript">
+	<!--//
+	// on DOM ready
+	$(document).ready(function ()
+	{
+		$("#category").mcDropdown("#categorymenu", {allowParentSelect: true, showACOnEmptyFocus: true, dropShadow: true, select: function(e) {  $("#selectedCategoryValue").val($("#category").mcDropdown().getValue()[0]) }});
+	});
+	//-->
+	</script>
+</head>
+
+<body>
+	<input type="text" value="" id="selectedCategoryValue"/>
+    <br/><br/>
+    <input type="text" name="category" id="category" value="" />
+    <ul id="categorymenu" class="mcdropdown_menu">
+        <li rel="1"> 
+        	Arts &amp; Humanities
+            <ul>
+                <li rel="2"> Photography
+                    <ul>
+                        <li rel="3">3D</li>
+                        <li rel="4">Digital</li>
+                    </ul>
+                </li>
+                <li rel="5">History</li>
+                <li rel="6">Literature</li>
+            </ul>
+        </li>
+        <li rel="7">Business &amp; Economy</li>
+        <li rel="8">Computers &amp; Internet</li>
+        <li rel="9">Education</li>
+        <li rel="11">Entertainment
+            <ul>
+                <li rel="12">Movies</li>
+                <li rel="13">TV Shows</li>
+                <li rel="14">Music</li>
+                <li rel="15">Humor</li>
+            </ul>
+        </li>
+        <li rel="10">Health
+            <ul>
+                <li>Eat Healthy</li>
+                <li>Proper Hygiene</li>
+                <li>Cardiovascular Exercise
+                    <ul>
+                        <li rel="36">Running
+                            <ul>
+                                <li>100m Run</li>
+                                <li rel="102">400m Run</li>
+                                <li>800m Run</li>
+                                <li>1km Run</li>
+                            </ul>
+                        </li>
+                        <li>Walking
+                            <ul>
+                                <li>20 Minutes</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <!--// end example code //-->
+</body>
+
+</html>

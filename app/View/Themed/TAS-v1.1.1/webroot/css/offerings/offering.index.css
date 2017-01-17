@@ -1,0 +1,9 @@
+.inactive
+{
+		display: none;
+}
+
+#calendar-events
+{
+		padding: 0px;
+}

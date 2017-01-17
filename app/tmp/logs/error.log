@@ -1,0 +1,79 @@
+2016-10-24 19:15:17 Error: [CakeException] Could not bind to LDAP authentication server - check your bind DN and password
+Request URL: /users/login
+Stack Trace:
+#0 C:\Sitepoint\tas.gmi-solution.dev\app\Plugin\YALP\Lib\YalpUtility.php(108): YalpUtility->__ldapConnect()
+#1 C:\Sitepoint\tas.gmi-solution.dev\app\Plugin\YALP\Controller\Component\Auth\LDAPAuthenticate.php(86): YalpUtility->validateUser('nca008', '$outhKorea2016!...')
+#2 C:\CakePHP\2.5.5\lib\Cake\Controller\Component\AuthComponent.php(754): LDAPAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#3 C:\CakePHP\2.5.5\lib\Cake\Controller\Component\AuthComponent.php(601): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#4 C:\Sitepoint\tas.gmi-solution.dev\app\Controller\UsersController.php(14): AuthComponent->login()
+#5 [internal function]: UsersController->login()
+#6 C:\CakePHP\2.5.5\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\CakePHP\2.5.5\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\CakePHP\2.5.5\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\Sitepoint\tas.gmi-solution.dev\app\webroot\index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-11-22 10:48:45 Error: [MissingControllerException] Controller class SttController could not be found.
+Exception Attributes: array (
+  'class' => 'SttController',
+  'plugin' => NULL,
+)
+Request URL: /stt
+Stack Trace:
+#0 C:\Sitepoint\tas.gmi-solution.dev\app\webroot\index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-22 11:01:31 Error: [MissingControllerException] Controller class Stt-ws01-02Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Stt-ws01-02Controller',
+  'plugin' => NULL,
+)
+Request URL: /stt-ws01-02/
+Stack Trace:
+#0 C:\Sitepoint\tas.gmi-solution.dev\app\webroot\index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-23 14:00:56 Error: [MissingControllerException] Controller class IafusController could not be found.
+Exception Attributes: array (
+  'class' => 'IafusController',
+  'plugin' => NULL,
+)
+Request URL: /iafus
+Stack Trace:
+#0 C:\Sitepoint\tas.gmi-solution.dev\app\webroot\index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 23:45:16 Error: [CakeException] Could not bind to LDAP authentication server - check your bind DN and password
+Request URL: /users/login
+Stack Trace:
+#0 C:\Sitepoint\tas.gmi-solution.dev\app\Plugin\YALP\Lib\YalpUtility.php(108): YalpUtility->__ldapConnect()
+#1 C:\Sitepoint\tas.gmi-solution.dev\app\Plugin\YALP\Controller\Component\Auth\LDAPAuthenticate.php(86): YalpUtility->validateUser('nca008', '$outhKorae2016!...')
+#2 C:\CakePHP\2.5.5\lib\Cake\Controller\Component\AuthComponent.php(754): LDAPAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#3 C:\CakePHP\2.5.5\lib\Cake\Controller\Component\AuthComponent.php(601): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#4 C:\Sitepoint\tas.gmi-solution.dev\app\Controller\UsersController.php(14): AuthComponent->login()
+#5 [internal function]: UsersController->login()
+#6 C:\CakePHP\2.5.5\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\CakePHP\2.5.5\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\CakePHP\2.5.5\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\Sitepoint\tas.gmi-solution.dev\app\webroot\index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-01-14 10:17:57 Error: [CakeException] Could not bind to LDAP authentication server - check your bind DN and password
+Request URL: /users/login
+Stack Trace:
+#0 C:\Sitepoint\tas.gmi-solution.dev\app\Plugin\YALP\Lib\YalpUtility.php(108): YalpUtility->__ldapConnect()
+#1 C:\Sitepoint\tas.gmi-solution.dev\app\Plugin\YALP\Controller\Component\Auth\LDAPAuthenticate.php(86): YalpUtility->validateUser('nca008', 'adminroot')
+#2 C:\CakePHP\2.5.5\lib\Cake\Controller\Component\AuthComponent.php(754): LDAPAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#3 C:\CakePHP\2.5.5\lib\Cake\Controller\Component\AuthComponent.php(601): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#4 C:\Sitepoint\tas.gmi-solution.dev\app\Controller\UsersController.php(14): AuthComponent->login()
+#5 [internal function]: UsersController->login()
+#6 C:\CakePHP\2.5.5\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\CakePHP\2.5.5\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\CakePHP\2.5.5\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\Sitepoint\tas.gmi-solution.dev\app\webroot\index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-01-14 12:37:05 Error: [CakeException] WKHTMLTOPDF didn't return any data
+Request URL: /reports/download/training_report/2016-11-01/2016-12-31.pdf
+Stack Trace:
+#0 C:\Sitepoint\tas.gmi-solution.dev\app\Plugin\CakePdf\Pdf\CakePdf.php(236): WkHtmlToPdfEngine->output()
+#1 C:\Sitepoint\tas.gmi-solution.dev\app\Plugin\CakePdf\View\PdfView.php(97): CakePdf->output('<!DOCTYPE html>...')
+#2 C:\CakePHP\2.5.5\lib\Cake\Controller\Controller.php(954): PdfView->render(NULL, NULL)
+#3 C:\CakePHP\2.5.5\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#4 C:\CakePHP\2.5.5\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ReportsController), Object(CakeRequest))
+#5 C:\Sitepoint\tas.gmi-solution.dev\app\webroot\index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
