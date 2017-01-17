@@ -8,7 +8,7 @@
 <div class="box">
 	<div class="row">
 			<div class="col-sm-offset-2	col-sm-8">
-					<?php echo $this->Form->create('Users', array('inputDefaults'=>array('div'=>false, 'label'=>false), 'id'=>'RegisterAccountForm', 'accept-charset'=>'utf-8', 'class'=>'form-horizontal', 'autocomplete'=>'off', 'role' => 'form', 'data-toggle'=>'validator')); ?>
+					<?php echo $this->Form->create('Users', ['inputDefaults'=>array('div'=>false, 'label'=>false), 'id'=>'RegisterAccountForm', 'accept-charset'=>'utf-8', 'class'=>'form-horizontal', 'autocomplete'=>'off', 'role' => 'form', 'data-toggle'=>'validator']); ?>
 					<div class="page-header">
 							<h4 class="text-default"><b>Personal Information</b></h4>
 					</div>
