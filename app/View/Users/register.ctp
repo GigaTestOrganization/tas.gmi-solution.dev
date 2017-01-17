@@ -15,31 +15,31 @@
 					<div class="form-group form-group-sm">
 							<label class="control-label col-sm-3">First Name:</label>
 							<div class="col-sm-9">
-									<?php echo $this->Form->input('UserProfile.first_name', array('class' => 'form-control easyui-textbox', 'style'=>'width:500px;', 'maxlength'=>'200', 'data-options'=>'required:true')); ?>
+									<?php echo $this->Form->input('UserProfile.first_name', array('class' => 'form-control easyui-textbox', 'style'=>'width:100%;', 'maxlength'=>'200', 'data-options'=>'required:true')); ?>
 							</div>
 					</div>
 					<div class="form-group form-group-sm">
 							<label class="control-label col-sm-3">Last Name:</label>
 							<div class="col-sm-9">
-									<?php echo $this->Form->input('UserProfile.last_name', array('class' => 'form-control easyui-textbox', 'style'=>'width:500px;', 'maxlength'=>'200', 'data-options'=>'required:true')); ?>
+									<?php echo $this->Form->input('UserProfile.last_name', array('class' => 'form-control easyui-textbox', 'style'=>'width:100%;', 'maxlength'=>'200', 'data-options'=>'required:true')); ?>
 							</div>
 					</div>
 					<div class="form-group form-group-sm">
 							<label class="control-label col-sm-3">E-mail:</label>
 							<div class="col-sm-9">
-									<?php echo $this->Form->input('UserProfile.email_add', array('class' => 'form-control easyui-textbox', 'style'=>'width:500px;', 'maxlength'=>'200', 'data-options'=>"required:true,validType:'email'")); ?>
+									<?php echo $this->Form->input('UserProfile.email_add', array('class' => 'form-control easyui-textbox', 'style'=>'width:100%;', 'maxlength'=>'200', 'data-options'=>"required:true,validType:'email'")); ?>
 							</div>
 					</div>
 					<div class="form-group form-group-sm">
 							<label class="control-label col-sm-3">Mobile Number:</label>
 							<div class="col-sm-9">
-									<?php echo $this->Form->input('UserProfile.mobile_number', array('class' => 'form-control easyui-textbox', 'style'=>'width:500px;', 'maxlength'=>'200')); ?>
+									<?php echo $this->Form->input('UserProfile.mobile_number', array('class' => 'form-control easyui-textbox', 'style'=>'width:100%;', 'maxlength'=>'200')); ?>
 							</div>
 					</div>
 					<div class="form-group form-group-sm">
 							<label class="control-label col-sm-3">Telephone Number:</label>
 							<div class="col-sm-9">
-									<?php echo $this->Form->input('UserProfile.telephone_number', array('class' => 'form-control easyui-textbox', 'style'=>'width:500px;', 'maxlength'=>'200')); ?>
+									<?php echo $this->Form->input('UserProfile.telephone_number', array('class' => 'form-control easyui-textbox', 'style'=>'width:100%;', 'maxlength'=>'200')); ?>
 							</div>
 					</div>
 
